@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#titulo{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(75, 153, 255);
+    text-align: center;
+    margin-top: 50px;
+}
+.calculator{
+    margin-left: 560px;
+    margin-top: 60px;
+    display: inline-block;
+    box-shadow: 2px 2px 9px 1px rgba(0, 0, 0, 0.2);
+    width: 250px;
+}
+#display{
+    box-shadow: 0px 2px rgba(0.2, 0.2, 0.2, 0.2);
+    width: 250px;
+    height: 45px;
+    margin-bottom: 6px;
+    background-color: rgb(223, 247, 252);
+    text-align: right;
+    font-size: 40px;
+    overflow: hidden;
+}
+#display>#elementoDisplay{
+    font-family: sans-serif;
+    padding-right: 5px;
+    color: rgb(87, 87, 87);
+}
+.button{
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color:aliceblue; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+.espaco{
+    padding: 15px 34px;
+}
+.azulForte{
+    background-color: lightblue;
+}
+.superAzul{
+    background-color: rgba(41, 169, 255, 0.877);
+    color: white;
+}
+.superEspaco{
+    width: 150px;
+}
+.diminuir{
+    background-color: rgba(41, 169, 255, 0.877);
+    color: white;
+    padding-left: 24px;
+    font-size: 15px;
+    width: 72px;
+}
